@@ -2,12 +2,9 @@
   "name": "smag-rdf",
   "version": "1.0.0",
   "description": "tools pour communiquer en rdf, tester le web semantique, ça vous dit ?",
-  "main": "lib/main.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
-  },
-  "scripts": {
-    "test": "mocha test/*.js"
   },
   "repository": {
     "type": "git",
@@ -24,10 +21,14 @@
     "ontologie",
     "ontology"
   ],
-  "author": "David Faveris",
+  "author": "David Faveris <@dfaveris> (http://smag0.blogspot.fr)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/scenaristeur/smag-rdf/issues"
   },
-  "homepage": "https://github.com/scenaristeur/smag-rdf#readme"
+  "devDependencies": {},
+  "homepage": "https://github.com/scenaristeur/smag-rdf#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

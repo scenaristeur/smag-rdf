@@ -1,0 +1,33 @@
+{
+  "name": "smag-rdf",
+  "version": "1.0.0",
+  "description": "tools pour communiquer en rdf, tester le web semantique, ça vous dit ?",
+  "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scenaristeur/smag-rdf.git"
+  },
+  "keywords": [
+    "rdf",
+    "smag",
+    "smag0",
+    "sparql",
+    "semantic",
+    "web",
+    "semantique",
+    "ontologie",
+    "ontology"
+  ],
+  "author": "David Faveris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scenaristeur/smag-rdf/issues"
+  },
+  "homepage": "https://github.com/scenaristeur/smag-rdf#readme"
+}
